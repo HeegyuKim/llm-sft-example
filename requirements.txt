@@ -1,0 +1,7 @@
+transformers
+accelerate
+trl
+peft
+deepspeed
+huggingface_hub
+wandb
