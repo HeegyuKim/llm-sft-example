@@ -32,19 +32,6 @@ accelerate launch \
     --tokenizer_name_or_path meta-llama/Llama-3.2-3B-Instruct
 ```
 
-#### Memory Requirement (1 GPU, Zero Stage 0, Seq 1024)
-| GPU  | Model | CPU Off | Optim-Off. | Batch |
-|----------|-------|---------|------------|---|
-|A5000 24GB| 3B | X | X | X |
-|A5000 24GB| 3B | X | O | X |
-|A5000 24GB| 3B | O | O | X |
-|A6000 48GB| 7B | X | X | ? |
-|A6000 48GB| 7B | X | O | ? |
-|A6000 48GB| 7B | O | O | ? |
-|A100 80GB| 7B | X | X | ? |
-|A100 80GB| 7B | X | O | ? |
-|A100 80GB| 7B | O | O | ? |
-
 
 ### VLM SFT
 ```bash
